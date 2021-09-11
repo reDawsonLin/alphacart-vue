@@ -1,0 +1,41 @@
+// footer
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 284px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: $footer-bg;
+    margin-top: 1rem;
+    
+
+    .items {
+      margin-top: 5rem;
+    }
+
+    .content {
+      color: $font-gray;
+    }
+
+    .nav-brand {
+      align-self: center;
+    }
+
+    .footer-title {
+      margin-bottom: 1rem;
+    }
+
+    .footer-icon {
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+  }
+}

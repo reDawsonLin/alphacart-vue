@@ -1,0 +1,48 @@
+// control button
+#btn-control {
+  border-top: 1px solid $light-gray;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .btn {
+    display: block;
+    height: 46px;
+    margin-top: 2em;
+    border-radius: 8px;
+    font-size: 14px;
+
+    &.btn-next {
+      color: $white;
+      background-color: $button-pink;
+      font-weight: 500;
+      width: 173px;
+      margin-bottom: 2em;
+
+      &::after {
+        content: "\2192";
+        margin-left: 1rem;
+      }
+
+      &:hover {
+        box-shadow: 1px 1px 5px $light-gray;
+      }
+    }
+
+    &.btn-pre {
+      font-weight: 500;
+
+      &::before {
+        content: "\2190";
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #btn-control {
+    margin-top: 1rem;
+  }  
+}
