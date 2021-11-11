@@ -59,7 +59,7 @@ export default {
         email: "",
         city: "",
         address: "",
-        delivery: "0",
+        delivery: 0,
         cardName: "",
         cardNum: "",
         goodThru: "",
@@ -86,6 +86,7 @@ export default {
   },
 
   created() {
+    this.saveStorage();
     this.getStorageData();
   },
 

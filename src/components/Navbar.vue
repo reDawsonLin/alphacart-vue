@@ -1,8 +1,8 @@
 <template>
   <header>
-  <a href="#" class="nav-brand">
+  <router-link to="/" class="nav-brand">
     <img src="https://i.imgur.com/BlJvquE.png" class="ac-logo" />
-  </a>
+  </router-link>
   <!--   加上導覽列 -->
   <input type="checkbox" class="nav-toggle" id="nav-toggle">
   <nav class="nav">

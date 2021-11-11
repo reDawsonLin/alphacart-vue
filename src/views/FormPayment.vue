@@ -7,7 +7,7 @@
         v-model="user.cardName"
         id="card-name"
         type="text"
-        placeholder="Rock Rock"
+        placeholder="Dany Rock"
         required
       />
     </div>
@@ -40,7 +40,7 @@
           v-model="user.CVC"
           id="card-cvc"
           type="text"
-          placeholder="123"
+          placeholder="000"
           required
         />
       </div>

@@ -63,7 +63,7 @@
             <option 
               v-for="city in cities"
               :key="city.id"
-              :value="city.id"
+              :value="city.name"
             >
             {{ city.name }}
             </option>
